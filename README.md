@@ -30,6 +30,10 @@
 - the required columns **unique_id, length, width** are not in the imported file.
 - the file is not a csv file. 
 
+***
+
+## Export
+
 ### It is possible to export the following items from a properly imported list:
 
 - The frame parts of a door - top rail, bottom rail, side stiles, mid rails, etc.
