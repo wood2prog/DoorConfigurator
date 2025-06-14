@@ -21,6 +21,8 @@
 
 ***These columns are necessary since the initialization of the import depends on these for defining the door objects**
 
+The first row must contain the column names. These are used to check for a valid file as well as provide the labeling for the program to run.
+
 ***
 
 ## Errors
