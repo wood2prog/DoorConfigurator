@@ -21,6 +21,15 @@
 
 ***These columns are necessary since the initialization of the import depends on these for defining the door objects**
 
+***
+
+## Errors
+
+### The import might fail for the following reasons:
+
+- the required columns **unique_id, length, width** are not in the imported file.
+- the file is not a csv file. 
+
 ### It is possible to export the following items from a properly imported list:
 
 - The frame parts of a door - top rail, bottom rail, side stiles, mid rails, etc.
