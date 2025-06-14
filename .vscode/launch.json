@@ -9,6 +9,15 @@
       "args": ["discover", "-s", "tests", "-p", "test_*.py"],
       "console": "integratedTerminal",
       "justMyCode": true
+    },
+    {
+      "name": "Python: Run Current File (from root)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
     }
   ]
 }
