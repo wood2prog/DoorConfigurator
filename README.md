@@ -7,19 +7,19 @@
 - Sorted by one of the columns.
 - A subset of parts selected by filtering one of the columns included in the file.
 
-### The list that can be imported must be a comma delimitted file (.csv). It can have any number of columns and the columns are the different types of data. Such as:
+***
 
-- unique_id
-- length
-- width
+## Input
+
+### The imported list must be a comma delimitted file (.csv). It can have any number of columns. Such as:
+
+- unique_id*
+- length*
+- width*
 - thickness
 - color
 
-### The only columns that are necessary are the unique_id, length, and width columns. If you don't have these columns the import will fail. The reason for this is:
-
-- The dimensions and id are required during initial import of the door objects in the list.
-- There isn't much use for the program if the doors don't have any dimensions
-- The id is used to create a unique reference to each door. If the id is not unique the import will fail.
+***These columns are necessary since the initialization of the import depends on these for defining the door objects**
 
 ### It is possible to export the following items from a properly imported list:
 
