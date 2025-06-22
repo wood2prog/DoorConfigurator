@@ -1,4 +1,4 @@
-from import_data import ImportData
+from src.file_io import ImportData
 
 
 class Doors:

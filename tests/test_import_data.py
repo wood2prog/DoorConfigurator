@@ -1,5 +1,5 @@
 import unittest
-from src.import_data import ImportData
+from src.file_io import ImportData
 
 
 class TestImportData(unittest.TestCase):
