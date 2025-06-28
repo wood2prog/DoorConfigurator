@@ -1,4 +1,4 @@
-import part
+from src.part import Part
 import configparser
 
 
@@ -10,5 +10,5 @@ class Door:
         self.length = length
         self.parts = []
 
-    def addPart(self, name, length, width, thickness):
-        
+    def add_part(self, name, length, width, thickness):
+        self.parts.append(Part(name, width, length, thickness))
