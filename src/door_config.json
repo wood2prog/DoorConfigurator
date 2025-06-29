@@ -1,0 +1,14 @@
+{
+    "Shaker Door" : {
+        "leftstilewidth" : 2.25,
+        "rightstilewidth" : 2.25,
+        "toprailwidth" : 2.25,
+        "bottomrailwidth" : 2.25,
+        "railtenonlength" : 0.5,
+        "railtenonmachineamount" : 0.125,
+        "paneltenonlength" : 0.75,
+        "paneltenonmachineamount" : 0,
+        "centerrailwidth" : 2.25,
+        "centerstilewidth" : 2.25
+    }
+}

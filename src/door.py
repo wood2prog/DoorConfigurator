@@ -1,5 +1,6 @@
 from part import Part
 import configparser
+import json
 
 
 class Door:
@@ -14,9 +15,8 @@ class Door:
         self.parts.append(Part(name, width, length, thickness))
 
     def junk(self):
-        config = configparser.ConfigParser()
-        config.read_file("door_config.ini")
-        print(config.sections())
+        json_string = json.dumps(["names", {"jesse": 34, "rachel": 56}], indent=4)
+        print(json_string)
 
 
 test = Door(123, 1, 2)
